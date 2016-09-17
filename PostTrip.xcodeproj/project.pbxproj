@@ -13,6 +13,7 @@
 		0A1644DF1D8D65080036FB71 /* PostTrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A1644DD1D8D65080036FB71 /* PostTrip.xcdatamodeld */; };
 		0A1644E11D8D65080036FB71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A1644E01D8D65080036FB71 /* Assets.xcassets */; };
 		0A1644E41D8D65080036FB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A1644E21D8D65080036FB71 /* LaunchScreen.storyboard */; };
+		0A31BE7F1D8D6EE9004EEE0D /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31BE7E1D8D6EE9004EEE0D /* Trip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0A1644E01D8D65080036FB71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A1644E31D8D65080036FB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A1644E51D8D65080036FB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A31BE7E1D8D6EE9004EEE0D /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				0A1644D61D8D65080036FB71 /* AppDelegate.swift */,
 				0A1644D81D8D65080036FB71 /* ViewController.swift */,
+				0A31BE7E1D8D6EE9004EEE0D /* Trip.swift */,
 				0A1644DA1D8D65080036FB71 /* Main.storyboard */,
 				0A1644E01D8D65080036FB71 /* Assets.xcassets */,
 				0A1644E21D8D65080036FB71 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A31BE7F1D8D6EE9004EEE0D /* Trip.swift in Sources */,
 				0A1644D91D8D65080036FB71 /* ViewController.swift in Sources */,
 				0A1644D71D8D65080036FB71 /* AppDelegate.swift in Sources */,
 				0A1644DF1D8D65080036FB71 /* PostTrip.xcdatamodeld in Sources */,
@@ -303,6 +307,7 @@
 				0A1644EA1D8D65080036FB71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
